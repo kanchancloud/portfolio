@@ -6,7 +6,6 @@ import SkillSection from "./SkillSection";
 import ResumeSection from "./ResumeSection";
 import PortfolioSection from "./PortfolioSection";
 import ServiceSection from "./ServiceSection";
-import TestimonialSection from "./TestimonialSection";
 import FooterSection from "./FooterSection";
 
 export {
@@ -18,6 +17,5 @@ export {
     ResumeSection,
     PortfolioSection,
     ServiceSection,
-    TestimonialSection,
     FooterSection
 }

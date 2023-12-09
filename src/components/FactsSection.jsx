@@ -5,12 +5,9 @@ const FactsSection = () => {
     <section id="facts" className="facts">
       <div className="container">
         <div className="section-title">
-          <h2>Facts</h2>
+          <h2>Let's Create Together</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+          I invite you to explore my portfolio and witness the diverse range of projects that reflect my passion for design. If you're seeking a UI/UX designer who is not only skilled in their craft but also deeply invested in the success of your project, let's connect. I'm excited to collaborate, innovate, and bring your digital vision to reality.
           </p>
         </div>
 
@@ -28,7 +25,7 @@ const FactsSection = () => {
                 className="purecounter"
               ></span>
               <p>
-                <strong>Happy Clients</strong> consequuntur quae
+                <strong>Visuals Design</strong>
               </p>
             </div>
           </div>
@@ -47,7 +44,7 @@ const FactsSection = () => {
                 className="purecounter"
               ></span>
               <p>
-                <strong>Projects</strong> adipisci atque cum quia aut
+                <strong>Wireframing/Prototyping</strong>
               </p>
             </div>
           </div>
@@ -66,7 +63,7 @@ const FactsSection = () => {
                 className="purecounter"
               ></span>
               <p>
-                <strong>Hours Of Support</strong> aut commodi quaerat
+                <strong>Team Collaboration</strong>
               </p>
             </div>
           </div>
@@ -85,7 +82,7 @@ const FactsSection = () => {
                 className="purecounter"
               ></span>
               <p>
-                <strong>Hard Workers</strong> rerum asperiores dolor
+                <strong>User Research</strong>
               </p>
             </div>
           </div>

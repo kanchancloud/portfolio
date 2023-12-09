@@ -9,16 +9,16 @@ import {
   ResumeSection,
   ServiceSection,
   SkillSection,
-  TestimonialSection,
 } from "./components";
+
 
 function App() {
   return (
     <>
       {/* ======= Mobile nav toggle button ======= */}
-      <MobileNavToggleBtn />
+      {/* <MobileNavToggleBtn /> */}
       {/* ======= Header ======= */}
-      <Header />
+      {/* <Header /> */}
 
       {/* ======= Hero Section ======= */}
       <HeroSection />
@@ -39,9 +39,6 @@ function App() {
 
         {/* ======= Services Section ======= */}
         <ServiceSection />
-
-        {/* ======= Testimonials Section ======= */}
-        <TestimonialSection />
 
         {/* Footer Section */}
         <FooterSection />
