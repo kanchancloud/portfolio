@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { db } from "../utils";
 import {onValue, ref} from 'firebase/database'
+import { projectsData } from "../constant/projectData";
 
 const PortfolioSection = () => {
 
-  const [projectData, setProjectdata] = useState(null)
+  // const [projectData, setProjectdata] = useState(null)
 
-  useEffect(() => {
-    const projectRef = ref(db,'projects')
-    onValue(projectRef, (snapshot) => {
-    const data = snapshot.val()
-    setProjectdata(data)
-  })
-  },[])
+  // useEffect(() => {
+  //   const projectRef = ref(db,'projects')
+  //   onValue(projectRef, (snapshot) => {
+  //   const data = snapshot.val()
+  //   setProjectdata(data)
+  // })
+  // },[])
   
   return (
     <section id="portfolio" className="portfolio section-bg">
@@ -40,7 +41,7 @@ const PortfolioSection = () => {
           data-aos-delay="100"
         >
         {
-          projectData === null ? "Loading project data..." : projectData.map((item,index) => {
+          projectsData === null ? "Loading project data..." : projectsData.map((item,index) => {
             return <div key={index} className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img
