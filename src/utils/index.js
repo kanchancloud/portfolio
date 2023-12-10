@@ -3,8 +3,8 @@ import {getDatabase} from 'firebase/database'
 import { firebaseConfig } from '../constant/firebaseConfig'
 
 
-export const app = initializeApp(firebaseConfig)
-export const db = getDatabase()
+// export const app = initializeApp(firebaseConfig)
+// export const db = getDatabase()
 
 export const select = (el, all = false) => {
     el = el.trim()
