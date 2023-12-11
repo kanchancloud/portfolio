@@ -48,5 +48,10 @@ export const projectsData = [
       "fileName": "appartment__app_10.png",
       "projectLink": "https://www.figma.com/proto/9WHhZBftxAtf1q7498piw2/Untitled?type=design&node-id=217-3&t=gI9uoejQx8uh96dj-1&scaling=scale-down&page-id=217%3A2&starting-point-node-id=217%3A3",
       "projectName": "Apartment App"
+    },
+    {
+      "fileName": "pmg_11.png",
+      "projectLink": "https://www.figma.com/proto/u2PpM1f02CxkZwhZ3mufgx/P02---PMG-Website-and-Mobile?type=design&node-id=4871-4674&t=qhPf51fqcwj45Bo5-1&scaling=scale-down-width&page-id=945%3A871&starting-point-node-id=1320%3A763",
+      "projectName": "PMG Engineering Website"
     }
   ]
