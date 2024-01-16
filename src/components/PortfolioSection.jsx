@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { db } from "../utils";
-import {onValue, ref} from 'firebase/database'
 import { projectsData } from "../constant/projectData";
 
 const PortfolioSection = () => {
@@ -42,6 +40,7 @@ const PortfolioSection = () => {
         >
         {
           projectsData === null ? "Loading project data..." : projectsData.map((item,index) => {
+            console.log(item)
             return <div key={index} className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img
