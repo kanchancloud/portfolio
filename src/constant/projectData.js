@@ -53,5 +53,20 @@ export const projectsData = [
       "fileName": "pmg_11.png",
       "projectLink": "https://www.figma.com/proto/u2PpM1f02CxkZwhZ3mufgx/P02---PMG-Website-and-Mobile?type=design&node-id=4871-4674&t=qhPf51fqcwj45Bo5-1&scaling=scale-down-width&page-id=945%3A871&starting-point-node-id=1320%3A763",
       "projectName": "PMG Engineering Website"
+    },
+    {
+      "fileName": "siec_12.png",
+      "projectLink": "https://www.figma.com/proto/Eic2DIfHeFmphgqLPXK9ZS/siec?type=design&node-id=2-2&t=XMCmoQimVKZyJL5I-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2",
+      "projectName": "SIEC Website"
+    },
+    {
+      "fileName": "pmgMobile_13.png",
+      "projectLink": "https://www.figma.com/proto/u2PpM1f02CxkZwhZ3mufgx/P02---PMG-Website-and-Mobile?type=design&node-id=5231-13307&t=WzUKmhVZ7ktA4Otj-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=148%3A89&show-proto-sidebar=1",
+      "projectName": "PMG Mobile App"
+    },
+    {
+      "fileName": "unisexGym_14.png",
+      "projectLink": "https://www.figma.com/proto/LivgYBE8xZdMVuwKiECIy8/Untitled?type=design&node-id=2-2&t=c6xx4X5vDMwUrsar-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2",
+      "projectName": "Unisex Gym Web"
     }
   ]
